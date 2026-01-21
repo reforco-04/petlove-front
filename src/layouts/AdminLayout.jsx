@@ -6,7 +6,7 @@ const AdminLayout = () => {
     return ( 
         <div className="bg-areia h-dvh flex flex-col">
          <Header/>
-         <div className="flex-grow">
+         <div className="grow p-4">
             <Outlet/>
          </div>
          <Menu/>    
